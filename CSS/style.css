@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  }
+  
+  header .navbar-desktop {
+    padding: 20px;
+  }
+  
+  header .navbar-desktop ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header .navbar-desktop ul li {
+    margin: 20px;
+  }
+  
+  header .navbar-desktop ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  img {
+    width: 250px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  p {
+    font-size: 20px;
+    color: rgb(253, 251, 251);
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .caja img {
+    border-radius: 50%;
+  }
+  
+  .caja p {
+    font-size: 20px;
+  }
+  
+  .presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(24, 24, 246);
+  }
+  
+  .presentacion h1 {
+    font-size: 35px;
+    color: rgb(24, 24, 246);
+  }
+  
+  .presentacion p {
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .coder {
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+
+
+
+  /*Mobile: < 576px* Boostrap*/
+  @media screen and (max-width:576){
+    .navbar-mobile{
+      display: initial;
+    }
+    .navbar-desktop{
+      display: none;
+    }
+  }
